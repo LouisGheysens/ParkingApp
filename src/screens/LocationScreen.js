@@ -27,7 +27,6 @@ const LocationScreen = () => {
     }catch(error){
       console.log('Fouthandeling: ', error);
     }
-
     return () => positionSubscription.remove();
   }, []);
 
